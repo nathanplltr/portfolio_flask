@@ -1,14 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nath. | Codeur / Designer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>Accueil</title>
 </head>
 
 <body>
+
+    <nav class="navbar">
+        <div class="logo">Nath<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/about">À propos</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Bienvenue sur mon espace Web</h1>
+            <p>Développeur passionné habitant à <strong>Dunkerque</strong>.</p>
+            <div class="cta-buttons">
+                <a href="/about" class="btn-secondary">En savoir plus</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="activities container">
+        <h2>Mes Passions</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Musculation</h3>
+                <p>Développement de la force et discipline quotidienne.</p>
+            </div>
+            <div class="card">
+                <h3>Course à pied</h3>
+                <p>Endurance et exploration des paysages.</p>
+            </div>
+            <div class="card">
+                <h3>Escalade</h3>
+                <p>Agilité et résolution de problèmes en hauteur.</p>
+            </div>
+        </div>
+    </section>
 
 </body>
 
