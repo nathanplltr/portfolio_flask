@@ -10,9 +10,10 @@ def home():
 def about():
     return "À propos de moi : Je suis en train d'apprendre à développer des applications web avec Flask !"
 
-if __name__ == '__main__':
-    app.run(debug=True)
+@app.route("/map")
+def map():
+    # C'est votre nouvelle page
+    return render_template("map.html")
 
-@app.route('/about')
-def about():
-    return "À propos de moi : Je suis en train d'apprendre à développer des applications web avec Flask !"
+if __name__ == '__main__':
+        app.run(debug=True)
