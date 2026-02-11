@@ -9,7 +9,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return "À propos de moi : Je suis en train d'apprendre à développer des applications web avec Flask !"
+    return render_template("about.html")
 
 @app.route("/contact")
 def afficher_ma_carte():  # On change 'map' en 'afficher_ma_carte'

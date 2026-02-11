@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nath. | À Propos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Nath<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/about">À propos</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>À propos de moi</h1>
+
+        <div class="about-section">
+            <div class="about-text">
+                <h2>Salut, moi c'est Nathan !</h2>
+                <p>Né le <strong>11 mars 2005</strong>, je suis un passionné de développement web basé à
+                    <strong>Dunkerque</strong>. Ce site est mon terrain de jeu pour apprendre Flask et les technologies
+                    modernes.
+                </p>
+
+                <p>Au-delà du code, je suis quelqu'un de très actif. Mon quotidien est rythmé par la discipline et le
+                    dépassement de soi, des valeurs que je retrouve aussi bien dans mes projets informatiques que dans
+                    mes activités sportives.</p>
+
+                <div class="cta-buttons" style="margin-top: 20px;">
+                    <a href="https://github.com/nathanplltr" target="_blank" class="btn-primary">Mon GitHub</a>
+                </div>
+            </div>
+
+            <div class="about-image">
+                👨‍💻
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>🏋️‍♂️ Musculation</h3>
+                <p>Force & Discipline</p>
+            </div>
+            <div class="stat-card">
+                <h3>🏃‍♂️ Course</h3>
+                <p>Endurance & Mental</p>
+            </div>
+            <div class="stat-card">
+                <h3>🧗‍♂️ Escalade</h3>
+                <p>Agilité & Focus</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
